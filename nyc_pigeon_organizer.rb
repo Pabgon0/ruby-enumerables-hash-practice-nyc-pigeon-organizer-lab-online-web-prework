@@ -16,6 +16,9 @@ hash_layout = pigeon_list
     color_name.each do |name|
       hash_layout.each do |bird_name|
         if bird_name == name
+          pigeon_list[name][:color] << "#{color}"
+        end
+      end
     end
   end
   
