@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     info.each do |other_key, bird_names|
       bird_names.each do |name|
         pigeon_list[name] = {
-            
+        
         }
       end
     end
