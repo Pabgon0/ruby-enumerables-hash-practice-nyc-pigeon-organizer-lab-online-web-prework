@@ -14,6 +14,7 @@ pigeon_list = {}
 hash_layout = pigeon_list
   data.each do |key, info|
     info.each do ||
+    end
   end
   
   
