@@ -40,7 +40,6 @@ data[:lives].each do |area, area_name|
       end
     end
   end
-end 
-  
+end
   pigeon_list
 end
