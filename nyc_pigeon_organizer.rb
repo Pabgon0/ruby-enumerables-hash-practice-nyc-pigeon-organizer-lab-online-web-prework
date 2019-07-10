@@ -11,7 +11,7 @@ pigeon_list = {}
       end
     end
   end
-hash_layout = pigeon_list
+hash_layout = pigeon_list.keys
   data[:color].each do |color, color_name|
     color_name.each do |name|
       hash_layout.each do |bird_name|
