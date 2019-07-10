@@ -12,7 +12,7 @@ pigeon_list = {}
     end
   end
 hash_layout = pigeon_list
-  data[:color].each do |color, color_name|
+  data[:color]keys.each do |color, color_name|
     color_name.each do |name|
       hash_layout.each do |bird_name|
         if bird_name === name
